@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style/style.css">
+    <title>Sitio Web Personal</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <header>
+
+        <ul class="navlist">
+            <li><a href="#home">INICIO</a></li>
+            <li><a href="#about">SOBRE MÍ</a></li>
+            <li><a href="#skills">HABILIDADES</a></li>
+            <li><a href="#projects">PROYECTOS</a></li>
+            <li><a href="#contact">CONTACTO</a></li>
+        </ul>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h3>Hola, soy</h3>
+            <h1>Brayan Stiben Cordoba Mosquera </h1>
+            <h5>Creo, diseño y desarrollo para agregar valor a tu producto.</h5>
+            <p>Soy un programador junior, poseo conocimientos de alta calidad y confiabilidad. Soy apasionado y
+                creativo. Siempre persigo mis metas y objetivos.</p>
+
+            <a href="#contact" class="btn">Contáctame</a>
+        </div>
+
+        <div class="home-img" data-aos="fade-up-left">
+            <img src="Utils/img.jpeg">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img" data-aos="zoom-in">
+            <img src="./Utils/pc.gif">
+        </div>
+
+        <div class="about-text">
+            <h3>Soy un Diseñador de Aplicaciones Web</h3>
+            <h2>Puedo desarrollar aplicaciones web</h2>
+            <p>¡Hola! Soy un programador junior con grandes metas. Soy persistente y siempre persigo mis sueños. Siempre
+                intento maximizar el rendimiento para obtener los mejores
+                resultados y satisfacer las necesidades del cliente.</p>
+            <a href="#contact" class="btn">Conóceme</a>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>HABILIDADES</h2>
+        <div class="items" data-aos="zoom-in-down">
+            <div class="sub-box">
+                <div class="sub-img">
+                    <img src="./Utils/js.png">
+                    <div>
+                        <h3>Javascript</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <div class="sub-box">
+                    <div class="sub-img">
+                        <img src="./Utils/html.png">
+                        <div>
+                            <h3>HTML</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="sub-box">
+                        <div class="sub-img">
+                            <img src="./Utils/css.png">
+                            <div>
+                                <h3>CSS</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="sub-box">
+                            <div class="sub-img">
+                                <img src="./Utils/reactjs.png">
+                                <div>
+                                    <h3>React</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="heading">
+            <h2>Proyectos</h2>
+            <h3>Mi Trabajo </h3>
+            <p>Con los conocimientos que he adquirido, he podido aprovecharlos y crear este proyecto de
+             gran utilidad y funcionalidad.</p>
+        </div>
+
+
+        <div class="projects-container">
+            <div class="col" data-aos="zoom-out-left">
+                <img class="img-projects" src="/Utils/project.jpg">"
+                    <div class="layer">
+                        <h3>Pre-Matricula</h3>
+
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <script type="text/javascript" src="./js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <footer class="footer__container">
+        <div class="contact">
+            <h2>Contacto</h2>
+            <ul class="contact-list">
+                <li id="contact"><strong>Correo:</strong> brayancordoba242@gmail.com</li>
+                <li><strong>Teléfono:</strong> +57 3133686318</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
